@@ -1,3 +1,12 @@
+# README
+This is unfinished. I kept retrying new ideas, and each time just running out of spare time to finish it.\
+Since I assumed Westpac would not wait much longer I never got around to finishing it. 
+
+Hopefully it is clear to see what my end goal was here. To try and entirely separate the game logic from the UI logic.\
+The game rules, game manager, game logic, whatever, is not supposed to be the responsibility of the UI layer.\
+Though I love React, too many people rely on it to do all the heavy lifting for their apps, and this is bad practice as it results in tightly coupled code.\
+Hence, I tried to make the game manager as a stand alone class library, which could then be utilised using a form of middleware in React, which I started to experiment using a custom hook to do.
+
 # Run me
 Standard create-react-app scripts, you know what to do 😉\
 - yarn install
